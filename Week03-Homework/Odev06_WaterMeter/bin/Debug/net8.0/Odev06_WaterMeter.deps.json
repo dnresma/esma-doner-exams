@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Odev06_WaterMeter/1.0.0": {
+        "runtime": {
+          "Odev06_WaterMeter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Odev06_WaterMeter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

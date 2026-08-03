@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/bin/Debug/net8.0/Odev11_Student
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/bin/Debug/net8.0/Odev11_Student.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/bin/Debug/net8.0/Odev11_Student.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/bin/Debug/net8.0/Odev11_Student.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/bin/Debug/net8.0/Odev11_Student.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/refint/Odev11_Student.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/Odev11_Student.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev11_Student/obj/Debug/net8.0/ref/Odev11_Student.dll

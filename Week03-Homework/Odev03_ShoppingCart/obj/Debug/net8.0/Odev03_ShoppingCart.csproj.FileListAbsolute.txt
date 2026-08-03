@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/bin/Debug/net8.0/Odev03_ShoppingCart
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/bin/Debug/net8.0/Odev03_ShoppingCart.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/bin/Debug/net8.0/Odev03_ShoppingCart.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/bin/Debug/net8.0/Odev03_ShoppingCart.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/bin/Debug/net8.0/Odev03_ShoppingCart.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/refint/Odev03_ShoppingCart.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/Odev03_ShoppingCart.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev03_ShoppingCart/obj/Debug/net8.0/ref/Odev03_ShoppingCart.dll

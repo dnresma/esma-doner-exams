@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/bin/Debug/net8.0/Odev07_StepCounter
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/bin/Debug/net8.0/Odev07_StepCounter.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/bin/Debug/net8.0/Odev07_StepCounter.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/bin/Debug/net8.0/Odev07_StepCounter.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/bin/Debug/net8.0/Odev07_StepCounter.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/refint/Odev07_StepCounter.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/Odev07_StepCounter.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev07_StepCounter/obj/Debug/net8.0/ref/Odev07_StepCounter.dll

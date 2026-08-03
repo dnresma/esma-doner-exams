@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/bin/Debug/net8.0/Odev04_ParkingTicket
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/bin/Debug/net8.0/Odev04_ParkingTicket.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/bin/Debug/net8.0/Odev04_ParkingTicket.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/bin/Debug/net8.0/Odev04_ParkingTicket.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/bin/Debug/net8.0/Odev04_ParkingTicket.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/refint/Odev04_ParkingTicket.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/Odev04_ParkingTicket.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev04_ParkingTicket/obj/Debug/net8.0/ref/Odev04_ParkingTicket.dll

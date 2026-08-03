@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/bin/Debug/net8.0/Odev06_WaterMeter
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/bin/Debug/net8.0/Odev06_WaterMeter.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/bin/Debug/net8.0/Odev06_WaterMeter.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/bin/Debug/net8.0/Odev06_WaterMeter.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/bin/Debug/net8.0/Odev06_WaterMeter.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/refint/Odev06_WaterMeter.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/Odev06_WaterMeter.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev06_WaterMeter/obj/Debug/net8.0/ref/Odev06_WaterMeter.dll

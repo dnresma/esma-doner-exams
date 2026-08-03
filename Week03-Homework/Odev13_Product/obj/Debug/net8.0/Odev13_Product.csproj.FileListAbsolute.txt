@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/bin/Debug/net8.0/Odev13_Product
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/bin/Debug/net8.0/Odev13_Product.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/bin/Debug/net8.0/Odev13_Product.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/bin/Debug/net8.0/Odev13_Product.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/bin/Debug/net8.0/Odev13_Product.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/refint/Odev13_Product.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/Odev13_Product.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev13_Product/obj/Debug/net8.0/ref/Odev13_Product.dll

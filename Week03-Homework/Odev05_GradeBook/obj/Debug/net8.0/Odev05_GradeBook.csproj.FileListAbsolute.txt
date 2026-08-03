@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/bin/Debug/net8.0/Odev05_GradeBook
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/bin/Debug/net8.0/Odev05_GradeBook.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/bin/Debug/net8.0/Odev05_GradeBook.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/bin/Debug/net8.0/Odev05_GradeBook.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/bin/Debug/net8.0/Odev05_GradeBook.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/refint/Odev05_GradeBook.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/Odev05_GradeBook.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev05_GradeBook/obj/Debug/net8.0/ref/Odev05_GradeBook.dll

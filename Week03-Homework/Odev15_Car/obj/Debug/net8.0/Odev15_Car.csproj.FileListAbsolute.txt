@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/bin/Debug/net8.0/Odev15_Car
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/bin/Debug/net8.0/Odev15_Car.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/bin/Debug/net8.0/Odev15_Car.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/bin/Debug/net8.0/Odev15_Car.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/bin/Debug/net8.0/Odev15_Car.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/refint/Odev15_Car.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/Odev15_Car.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev15_Car/obj/Debug/net8.0/ref/Odev15_Car.dll

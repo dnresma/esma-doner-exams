@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/bin/Debug/net8.0/Odev08_InventoryItem
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/bin/Debug/net8.0/Odev08_InventoryItem.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/bin/Debug/net8.0/Odev08_InventoryItem.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/bin/Debug/net8.0/Odev08_InventoryItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/bin/Debug/net8.0/Odev08_InventoryItem.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/refint/Odev08_InventoryItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/Odev08_InventoryItem.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev08_InventoryItem/obj/Debug/net8.0/ref/Odev08_InventoryItem.dll

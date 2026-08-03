@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/bin/Debug/net8.0/Odev01_LibraryBook
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/bin/Debug/net8.0/Odev01_LibraryBook.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/bin/Debug/net8.0/Odev01_LibraryBook.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/bin/Debug/net8.0/Odev01_LibraryBook.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/bin/Debug/net8.0/Odev01_LibraryBook.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/refint/Odev01_LibraryBook.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/Odev01_LibraryBook.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev01_LibraryBook/obj/Debug/net8.0/ref/Odev01_LibraryBook.dll

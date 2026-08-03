@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/bin/Debug/net8.0/Odev09_EmailDraft
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/bin/Debug/net8.0/Odev09_EmailDraft.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/bin/Debug/net8.0/Odev09_EmailDraft.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/bin/Debug/net8.0/Odev09_EmailDraft.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/bin/Debug/net8.0/Odev09_EmailDraft.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/refint/Odev09_EmailDraft.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/Odev09_EmailDraft.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev09_EmailDraft/obj/Debug/net8.0/ref/Odev09_EmailDraft.dll

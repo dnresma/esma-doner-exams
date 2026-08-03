@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/bin/Debug/net8.0/Odev12_Employee
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/bin/Debug/net8.0/Odev12_Employee.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/bin/Debug/net8.0/Odev12_Employee.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/bin/Debug/net8.0/Odev12_Employee.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/bin/Debug/net8.0/Odev12_Employee.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/refint/Odev12_Employee.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/Odev12_Employee.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev12_Employee/obj/Debug/net8.0/ref/Odev12_Employee.dll

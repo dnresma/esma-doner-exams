@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/bin/Debug/net8.0/Odev02_Temperature
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/bin/Debug/net8.0/Odev02_Temperature.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/bin/Debug/net8.0/Odev02_Temperature.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/bin/Debug/net8.0/Odev02_Temperature.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/bin/Debug/net8.0/Odev02_Temperature.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/refint/Odev02_Temperature.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/Odev02_Temperature.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev02_Temperature/obj/Debug/net8.0/ref/Odev02_Temperature.dll

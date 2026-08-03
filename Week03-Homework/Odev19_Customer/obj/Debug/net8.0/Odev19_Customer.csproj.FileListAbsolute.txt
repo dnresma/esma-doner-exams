@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/bin/Debug/net8.0/Odev19_Customer
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/bin/Debug/net8.0/Odev19_Customer.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/bin/Debug/net8.0/Odev19_Customer.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/bin/Debug/net8.0/Odev19_Customer.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/bin/Debug/net8.0/Odev19_Customer.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/refint/Odev19_Customer.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/Odev19_Customer.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev19_Customer/obj/Debug/net8.0/ref/Odev19_Customer.dll

@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/bin/Debug/net8.0/Odev16_MenuItem
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/bin/Debug/net8.0/Odev16_MenuItem.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/bin/Debug/net8.0/Odev16_MenuItem.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/bin/Debug/net8.0/Odev16_MenuItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/bin/Debug/net8.0/Odev16_MenuItem.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/refint/Odev16_MenuItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/Odev16_MenuItem.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev16_MenuItem/obj/Debug/net8.0/ref/Odev16_MenuItem.dll

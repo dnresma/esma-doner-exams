@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/bin/Debug/net8.0/Odev18_Shipment
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/bin/Debug/net8.0/Odev18_Shipment.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/bin/Debug/net8.0/Odev18_Shipment.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/bin/Debug/net8.0/Odev18_Shipment.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/bin/Debug/net8.0/Odev18_Shipment.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/refint/Odev18_Shipment.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/Odev18_Shipment.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev18_Shipment/obj/Debug/net8.0/ref/Odev18_Shipment.dll

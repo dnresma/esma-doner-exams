@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/bin/Debug/net8.0/Odev17_Patient
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/bin/Debug/net8.0/Odev17_Patient.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/bin/Debug/net8.0/Odev17_Patient.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/bin/Debug/net8.0/Odev17_Patient.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/bin/Debug/net8.0/Odev17_Patient.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/refint/Odev17_Patient.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/Odev17_Patient.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev17_Patient/obj/Debug/net8.0/ref/Odev17_Patient.dll

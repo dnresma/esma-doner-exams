@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/bin/Debug/net8.0/Odev23_Category
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/bin/Debug/net8.0/Odev23_Category.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/bin/Debug/net8.0/Odev23_Category.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/bin/Debug/net8.0/Odev23_Category.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/bin/Debug/net8.0/Odev23_Category.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/refint/Odev23_Category.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/Odev23_Category.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev23_Category/obj/Debug/net8.0/ref/Odev23_Category.dll

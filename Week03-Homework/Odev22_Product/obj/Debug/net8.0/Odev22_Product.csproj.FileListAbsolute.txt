@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/bin/Debug/net8.0/Odev22_Product
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/bin/Debug/net8.0/Odev22_Product.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/bin/Debug/net8.0/Odev22_Product.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/bin/Debug/net8.0/Odev22_Product.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/bin/Debug/net8.0/Odev22_Product.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/refint/Odev22_Product.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/Odev22_Product.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev22_Product/obj/Debug/net8.0/ref/Odev22_Product.dll

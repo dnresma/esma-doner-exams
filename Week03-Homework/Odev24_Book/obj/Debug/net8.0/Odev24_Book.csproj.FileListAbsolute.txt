@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/bin/Debug/net8.0/Odev24_Book
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/bin/Debug/net8.0/Odev24_Book.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/bin/Debug/net8.0/Odev24_Book.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/bin/Debug/net8.0/Odev24_Book.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/bin/Debug/net8.0/Odev24_Book.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/refint/Odev24_Book.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/Odev24_Book.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev24_Book/obj/Debug/net8.0/ref/Odev24_Book.dll

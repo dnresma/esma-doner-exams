@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Odev21_BankAccount/1.0.0": {
+        "runtime": {
+          "Odev21_BankAccount.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Odev21_BankAccount/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

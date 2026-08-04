@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/bin/Debug/net8.0/Odev21_BankAccount
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/bin/Debug/net8.0/Odev21_BankAccount.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/bin/Debug/net8.0/Odev21_BankAccount.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/bin/Debug/net8.0/Odev21_BankAccount.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/bin/Debug/net8.0/Odev21_BankAccount.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/refint/Odev21_BankAccount.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/Odev21_BankAccount.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev21_BankAccount/obj/Debug/net8.0/ref/Odev21_BankAccount.dll

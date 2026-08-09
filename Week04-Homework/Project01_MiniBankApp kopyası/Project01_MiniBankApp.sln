@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project01_MiniBankApp", "Project01_MiniBankApp.csproj", "{2C03CD83-5258-E7FF-0DD1-A70E00A393EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C03CD83-5258-E7FF-0DD1-A70E00A393EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C03CD83-5258-E7FF-0DD1-A70E00A393EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C03CD83-5258-E7FF-0DD1-A70E00A393EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C03CD83-5258-E7FF-0DD1-A70E00A393EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {489BFA08-AD4B-44BA-8D17-D10658644C3D}
+	EndGlobalSection
+EndGlobal

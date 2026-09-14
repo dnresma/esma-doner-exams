@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/bin/Debug/net8.0/Odev39_FlightTicket
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/bin/Debug/net8.0/Odev39_FlightTicket.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/bin/Debug/net8.0/Odev39_FlightTicket.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/bin/Debug/net8.0/Odev39_FlightTicket.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/bin/Debug/net8.0/Odev39_FlightTicket.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/refint/Odev39_FlightTicket.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/Odev39_FlightTicket.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev39_FlightTicket/obj/Debug/net8.0/ref/Odev39_FlightTicket.dll

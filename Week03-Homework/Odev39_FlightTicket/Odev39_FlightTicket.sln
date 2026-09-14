@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev39_FlightTicket", "Odev39_FlightTicket.csproj", "{8513CFBA-75A9-483F-0C82-C0DA03AF2693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8513CFBA-75A9-483F-0C82-C0DA03AF2693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8513CFBA-75A9-483F-0C82-C0DA03AF2693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8513CFBA-75A9-483F-0C82-C0DA03AF2693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8513CFBA-75A9-483F-0C82-C0DA03AF2693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A26509FE-860D-42BF-B151-9065971E6DBF}
+	EndGlobalSection
+EndGlobal

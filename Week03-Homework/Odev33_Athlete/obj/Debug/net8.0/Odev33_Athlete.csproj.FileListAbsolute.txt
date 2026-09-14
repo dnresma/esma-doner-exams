@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/bin/Debug/net8.0/Odev33_Athlete
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/bin/Debug/net8.0/Odev33_Athlete.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/bin/Debug/net8.0/Odev33_Athlete.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/bin/Debug/net8.0/Odev33_Athlete.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/bin/Debug/net8.0/Odev33_Athlete.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/refint/Odev33_Athlete.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/Odev33_Athlete.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev33_Athlete/obj/Debug/net8.0/ref/Odev33_Athlete.dll

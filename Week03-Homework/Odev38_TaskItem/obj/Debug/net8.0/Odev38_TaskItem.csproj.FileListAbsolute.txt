@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/bin/Debug/net8.0/Odev38_TaskItem
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/bin/Debug/net8.0/Odev38_TaskItem.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/bin/Debug/net8.0/Odev38_TaskItem.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/bin/Debug/net8.0/Odev38_TaskItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/bin/Debug/net8.0/Odev38_TaskItem.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/refint/Odev38_TaskItem.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/Odev38_TaskItem.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev38_TaskItem/obj/Debug/net8.0/ref/Odev38_TaskItem.dll

@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/bin/Debug/net8.0/Odev35_Lesson
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/bin/Debug/net8.0/Odev35_Lesson.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/bin/Debug/net8.0/Odev35_Lesson.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/bin/Debug/net8.0/Odev35_Lesson.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/bin/Debug/net8.0/Odev35_Lesson.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/refint/Odev35_Lesson.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/Odev35_Lesson.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev35_Lesson/obj/Debug/net8.0/ref/Odev35_Lesson.dll

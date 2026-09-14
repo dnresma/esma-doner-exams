@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/bin/Debug/net8.0/Odev28_Apartment
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/bin/Debug/net8.0/Odev28_Apartment.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/bin/Debug/net8.0/Odev28_Apartment.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/bin/Debug/net8.0/Odev28_Apartment.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/bin/Debug/net8.0/Odev28_Apartment.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/refint/Odev28_Apartment.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/Odev28_Apartment.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev28_Apartment/obj/Debug/net8.0/ref/Odev28_Apartment.dll

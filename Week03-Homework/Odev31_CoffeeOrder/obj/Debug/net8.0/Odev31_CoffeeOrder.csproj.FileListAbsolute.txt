@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/bin/Debug/net8.0/Odev31_CoffeeOrder
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/bin/Debug/net8.0/Odev31_CoffeeOrder.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/bin/Debug/net8.0/Odev31_CoffeeOrder.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/bin/Debug/net8.0/Odev31_CoffeeOrder.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/bin/Debug/net8.0/Odev31_CoffeeOrder.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/refint/Odev31_CoffeeOrder.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/Odev31_CoffeeOrder.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev31_CoffeeOrder/obj/Debug/net8.0/ref/Odev31_CoffeeOrder.dll

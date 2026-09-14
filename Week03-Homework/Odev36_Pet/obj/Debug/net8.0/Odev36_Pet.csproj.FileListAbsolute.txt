@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/bin/Debug/net8.0/Odev36_Pet
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/bin/Debug/net8.0/Odev36_Pet.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/bin/Debug/net8.0/Odev36_Pet.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/bin/Debug/net8.0/Odev36_Pet.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/bin/Debug/net8.0/Odev36_Pet.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/refint/Odev36_Pet.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/Odev36_Pet.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev36_Pet/obj/Debug/net8.0/ref/Odev36_Pet.dll

@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/bin/Debug/net8.0/Odev30_Movie
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/bin/Debug/net8.0/Odev30_Movie.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/bin/Debug/net8.0/Odev30_Movie.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/bin/Debug/net8.0/Odev30_Movie.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/bin/Debug/net8.0/Odev30_Movie.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/refint/Odev30_Movie.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/Odev30_Movie.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev30_Movie/obj/Debug/net8.0/ref/Odev30_Movie.dll

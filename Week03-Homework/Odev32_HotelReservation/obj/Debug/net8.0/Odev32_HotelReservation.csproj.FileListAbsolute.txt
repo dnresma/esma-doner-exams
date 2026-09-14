@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/bin/Debug/net8.0/Odev32_HotelReservation
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/bin/Debug/net8.0/Odev32_HotelReservation.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/bin/Debug/net8.0/Odev32_HotelReservation.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/bin/Debug/net8.0/Odev32_HotelReservation.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/bin/Debug/net8.0/Odev32_HotelReservation.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/refint/Odev32_HotelReservation.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/Odev32_HotelReservation.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev32_HotelReservation/obj/Debug/net8.0/ref/Odev32_HotelReservation.dll

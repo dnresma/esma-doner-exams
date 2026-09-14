@@ -9,7 +9,7 @@ Each assignment has been developed to support and reinforce the training during 
 ## Repository Structure
 
 ```text
-esma-doner-Exams
+esma-doner-exams
 │
 ├── Week03/
 │   ├── Odev01/

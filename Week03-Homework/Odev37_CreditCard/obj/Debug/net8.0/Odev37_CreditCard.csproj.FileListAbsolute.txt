@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/bin/Debug/net8.0/Odev37_CreditCard
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/bin/Debug/net8.0/Odev37_CreditCard.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/bin/Debug/net8.0/Odev37_CreditCard.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/bin/Debug/net8.0/Odev37_CreditCard.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/bin/Debug/net8.0/Odev37_CreditCard.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/refint/Odev37_CreditCard.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/Odev37_CreditCard.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev37_CreditCard/obj/Debug/net8.0/ref/Odev37_CreditCard.dll

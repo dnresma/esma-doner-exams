@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/bin/Debug/net8.0/Odev34_Invoice
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/bin/Debug/net8.0/Odev34_Invoice.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/bin/Debug/net8.0/Odev34_Invoice.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/bin/Debug/net8.0/Odev34_Invoice.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/bin/Debug/net8.0/Odev34_Invoice.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/refint/Odev34_Invoice.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/Odev34_Invoice.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev34_Invoice/obj/Debug/net8.0/ref/Odev34_Invoice.dll

@@ -1,0 +1,15 @@
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/bin/Debug/net8.0/Odev40_LibraryMember
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/bin/Debug/net8.0/Odev40_LibraryMember.deps.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/bin/Debug/net8.0/Odev40_LibraryMember.runtimeconfig.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/bin/Debug/net8.0/Odev40_LibraryMember.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/bin/Debug/net8.0/Odev40_LibraryMember.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.AssemblyInfoInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.AssemblyInfo.cs
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.csproj.CoreCompileInputs.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.sourcelink.json
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/refint/Odev40_LibraryMember.dll
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.pdb
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/Odev40_LibraryMember.genruntimeconfig.cache
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week03-Homework/Odev40_LibraryMember/obj/Debug/net8.0/ref/Odev40_LibraryMember.dll

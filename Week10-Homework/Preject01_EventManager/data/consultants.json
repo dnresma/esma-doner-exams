@@ -1,0 +1,74 @@
+[
+        {
+            "id": 1,
+            "name": "Zeynep Yılmaz",
+            "specialty": "Düğün Organizasyonu",
+            "experience": 8,
+            "rating": 4.8,
+            "status": "Müsait",
+            "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Ahmet Demir",
+            "specialty": "Kurumsal Konferanslar",
+            "experience": 12,
+            "rating": 4.9,
+            "status": "Görevde",
+            "image": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fHww"
+        },
+        {
+            "id": 3,
+            "name": "Fatih Kılıç",
+            "specialty": "Dekorasyon & Tasarım",
+            "experience": 6,
+            "rating": 4.6,
+            "status": "Müsait",
+            "image": "https://images.unsplash.com/photo-1697639624655-4fa775970eaf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 4,
+            "name": "Seda Çetin",
+            "specialty": "Catering & Mutfak",
+            "experience": 10,
+            "rating": 4.7,
+            "status": "İzinde",
+            "image": "https://images.unsplash.com/photo-1758600587815-b654d1405e83?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 5,
+            "name": "Murat Arslan",
+            "specialty": "Fotoğrafçılık & Videografi",
+            "experience": 7,
+            "rating": 4.5,
+            "status": "Müsait",
+            "image": "https://images.unsplash.com/photo-1652695904100-87e2797371f9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 6,
+            "name": "Elif Öztürk",
+            "specialty": "Davetiye & Matbaa Tasarımı",
+            "experience": 5,
+            "rating": 4.4,
+            "status": "Müsait",
+            "image": "https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbHxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+            "id": 7,
+            "name": "Caner Kaya",
+            "specialty": "Ses & Işık Sistemleri",
+            "experience": 9,
+            "rating": 4.8,
+            "status": "Görevde",
+            "image": "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 8,
+            "name": "Aylin Şahin",
+            "specialty": "Açık Hava & Konsept Organizasyon",
+            "experience": 6,
+            "rating": 4.7,
+            "status": "Müsait",
+            "image": "https://plus.unsplash.com/premium_photo-1733306669049-2491bd1c0035?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+ ]

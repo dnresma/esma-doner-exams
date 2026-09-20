@@ -60,8 +60,6 @@ Each assignment has been developed as a separate .NET Console project and prepar
 
 # Acquired Competencies
 
-🧠 Skills Acquired
-
 - Creating classes and objects
 - Encapsulation & private fields
 - Properties (auto-properties, validation)

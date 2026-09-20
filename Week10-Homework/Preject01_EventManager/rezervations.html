@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager - Rezervasyon</title>
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- İkon Kütüphanesi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+     <div class="card card-nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">EVENT MANAGER</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="/dashboard.html">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/consultants.html">Danışmanlar</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/rezervations.html">Rezervasyon</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main class="layout">
+            <section class="left-side mt-5">
+                        <div class="left-top mt-">
+                                <div class="hero-content">
+                                    <h1 class=""  id="h1">Unutulmaz Anlarınızı Hayallerin Ötesine Taşıyın</h1>
+                                    <p>Hemen rezervasyonuzu tamamlayın</p>
+                                </div>
+                        </div>
+                        <div class="left-bottom align-items-end">
+                            <div class="info bg-primary-subtle p-3">
+                                <label class=" mb-5">Notlarınızı yazın</label><br>
+                                <textarea name="Not" id="" class="w-100"></textarea>
+                            </div>
+                        </div>
+            </section>
+
+            <section class="right-side">
+                <div class="">
+                    <h2 id="h2" class="text-warning">Rezervasyon Yapın</h2>
+                        <form class="row g-4 rez-form"> 
+                                    <!-- Risk Uyarısı -->
+                                    <div id="risk-alert" class="alert alert-danger d-none"> </div>
+                                    <!-- Ad Soyad -->
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Ad Soyad</label>
+                                        <input type="text" class="form-control" id="full-name" required>
+                                        <div class="invalid-feedback">Lütfen adınızı ve soyadınızı girin.</div>
+                                    </div>
+                                    <!-- ePOSTA -->
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">E-posta</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                        <div class="invalid-feedback">Lütfen geçerli bir e-posta girin.</div>
+                                    </div>
+                                    <!-- Telefon -->
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Telefon</label>
+                                        <input type="tel" class="form-control" id="tel" placeholder="+90">
+                                        <div class="invalid-feedback">Lütfen telefon numaranızı girin.</div>
+                                    </div>
+                                    <!-- Etkinlik Türü -->
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Seçilecek Etkinlik</label>
+                                        <select name="" id="dimension" class="form-select" required>
+                                            <option value="">Etkinlik Seçiniz...</option>
+                                            <option data-price="15000" data-risk="Low" value="evlilik">Evlilik Teklifi - 15.000TL</option>
+                                            <option data-price="150000" data-risk="High" value="dugun">Düğün(50 Kişi)- 150.000TL</option>
+                                            <option data-price="10000" data-risk="Low" value="dogum">Doğum Günü - 10.000TL</option>
+                                            <option data-price="10000" data-risk="Low" value="cinsiyet">Cinsiyet Partisi - 10.000TL</option>
+                                            <option data-price="15000" data-risk="Low" value="toplantı">Kurumsal Toplamtı - 15.000TL</option>
+                                            <option data-price="30000" data-risk="High" value="cekim">İç/Dış Çekim - 30.000TL</option>
+                                        </select>
+                                        <div class="invalid-feedback">Lütfen bir etkinlik seçiniz.</div>
+                                    </div>
+                                    <!-- Konuk Sayısı -->
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Konuk Sayısı</label>
+                                        <input type="number" class="form-control" id="passenger-count" min="1" max="1500" value="1" required>
+                                        <div class="invalid-feedback">Geçerli bir konuk sayısı girin (1-1500)</div>
+                                    </div>
+                                    <!-- Tarih -->
+                                    <div class="mb-3">
+                                        <label for="" class="form-label">Etkinlik Tarihi</label>
+                                        <input type="date" class="form-control" id="travel-date" required>
+                                        <div class="invalid-feedback">Geçerli bir tarih girin.</div>
+                                    </div>
+                                    <!-- Tutar -->
+                                    <div class="border py-2 px-4 rounded mb-3 d-flex justify-content-between align-items-center bg-warning-subtle">
+                                        <span class="fs-5">Toplam Tutar: </span>
+                                        <span id="price-display" class="fs-3 text-black fw-bold">0 TL</span>
+                                    </div>
+                                    <!-- Onay -->
+                                    <button type="submit" class="btn btn-primary btn-lg w-100 text-bg-warning border-black">Rezervasyonu Onayla</button>
+                                    
+                        </form>
+                </div>
+            </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container py-5">
+        <div class="row g-4 justify-content-between">
+        <div class="col-lg-5 col-md-6">
+                <h3 class="footer-brand fw-bold mb-3">EVENT MANAGER</h3>
+                <p class="footer-text mb-4">
+                    Profesyonel etkinlik planlama ve yönetim hizmetlerinde öncü şirket. Hayalinizdeki etkinliği gerçekleştirmek için buradayız.
+                </p>
+                <h6 class="text-orange fw-bold text-uppercase mb-3 text-warning">BİZİ TAKİP EDİN</h6>
+                <div class="social-icons d-flex gap-2">
+                    <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 justify-content-end pl-5 ms-5">
+                <h6 class="fw-bold text-uppercase mb-3 text-warning ">İLETİŞİM</h6>
+                <ul class="list-unstyled footer-contact">
+                    <li><i class="fa-solid fa-phone me-2"></i> +90 552 253 8580</li>
+                    <li><i class="fa-solid fa-envelope me-2"></i>eventmanger@eventmanager.com</li>
+                    <li><i class="fa-solid fa-location-dot me-2"></i> İstanbul, Türkiye</li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none">Bize Yazın</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-divider my-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center opacity-75 small">
+        <p class="mb-2 mb-md-0">© 2026 Event Manager. Tüm hakları saklıdır.</p>
+        <div class="footer-bottom-links d-flex gap-3 me-5 ps-5">
+            <a href="#" class="text-light link-underline-warning link-warning ">Gizlilik Politikası</a>
+            <a href="#" class="text-light link-underline-warning  link-warning  ">Kullanım Şartları</a>
+            <a href="#" class="text-light link-underline-warning  link-warning  ">Çerez Politikası</a>
+        </div>
+        </div>
+    </div>
+    </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+   <script src="/js/rezervations.js"></script>
+</body>
+</html>

@@ -1,12 +1,12 @@
 (function ($) {
-    'use strict'
-
+    'use strict';
     function initRezervations() {
-        const bookingForm = $("#booking-form");
+        const rezForm = $("#rez-form");
         const dimensionSelect = $("#dimension");
         const passengerCount = $("#passenger-count");
         const priceDisplay = $("#price-display");
         const riskAlert = $("#risk-alert"); 
+
 
 
         function calculatePriceAndRisk() {
@@ -47,18 +47,31 @@
         passengerCount.on('change', calculatePriceAndRisk);
 
         //Form submit olunca 
-        bookingForm.on('submit', function (event) {
+        rezForm.on('submit', function (event) {
             event.preventDefault();
             $(this).addClass("was-validated");
 
 
             if (this.checkValidity()) {
-                alert("Rezervasyon talebiniz merkeze iletildi. İyi yolculuklar.");
+                 
+                const fullName = $("#full-name").val();
+                const eventName = $("#dimension option:selected").text();
+                const passenger = $("#passenger-count").val();
+                const totalPrice = $("#price-display").text();
+                 
+                $("#card-name").text(fullName);
+                $("#card-event").text(eventName);
+                $("#card-passenger").text(passenger);
+                $("#card-price").text(totalPrice);
+                 
+                $("#reservation-card").removeClass("d-none");
+
                 this.reset();
                 $(this).removeClass("was-validated");
-                priceDisplay.text("$ 0");
+                 
+                priceDisplay.text("0 TL");
                 riskAlert.addClass("d-none");
-            }
+                            }
 
         });
     }

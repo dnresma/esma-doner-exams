@@ -6,14 +6,17 @@
     <title>Event Manager - Rezervasyon</title>
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
     <!-- İkon Kütüphanesi -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+        <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
     <!-- Navbar -->
+     
      <div class="card card-nav">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -23,7 +26,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="/dashboard.html">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="/">Ana Sayfa</a></li>
                     <li class="nav-item"><a class="nav-link" href="/consultants.html">Danışmanlar</a></li>
                     <li class="nav-item"><a class="nav-link active" href="/rezervations.html">Rezervasyon</a></li>
                 </ul>
@@ -43,7 +46,7 @@
                         <div class="left-bottom align-items-end">
                             <div class="info bg-primary-subtle p-3">
                                 <label class=" mb-5">Notlarınızı yazın</label><br>
-                                <textarea name="Not" id="" class="w-100"></textarea>
+                                <textarea name="Not" id="note" class="w-100"></textarea>
                             </div>
                         </div>
             </section>
@@ -51,7 +54,7 @@
             <section class="right-side">
                 <div class="">
                     <h2 id="h2" class="text-warning">Rezervasyon Yapın</h2>
-                        <form class="row g-4 rez-form"> 
+                        <form class="row g-4" id="rez-form" novalidate> 
                                     <!-- Risk Uyarısı -->
                                     <div id="risk-alert" class="alert alert-danger d-none"> </div>
                                     <!-- Ad Soyad -->
@@ -69,7 +72,7 @@
                                     <!-- Telefon -->
                                     <div class="mb-3">
                                         <label for="" class="form-label">Telefon</label>
-                                        <input type="tel" class="form-control" id="tel" placeholder="+90">
+                                        <input type="tel" class="form-control" id="tel" placeholder="+90" required>
                                         <div class="invalid-feedback">Lütfen telefon numaranızı girin.</div>
                                     </div>
                                     <!-- Etkinlik Türü -->
@@ -104,9 +107,28 @@
                                         <span id="price-display" class="fs-3 text-black fw-bold">0 TL</span>
                                     </div>
                                     <!-- Onay -->
-                                    <button type="submit" class="btn btn-primary btn-lg w-100 text-bg-warning border-black">Rezervasyonu Onayla</button>
-                                    
+                                    <button type="submit" class="btn btn-primary btn-lg w-100 text-bg-warning border-black">Rezervasyonu Onayla</button>   
                         </form>
+                        <div id="reservation-card" class="card mt-4 d-none">
+                            <div class="card-header bg-success text-white">
+                                Rezervasyon Bilgileri
+                            </div>
+
+                            <div class="card-body">
+                                <p><strong>Ad Soyad:</strong> <span id="card-name"></span></p>
+                                <p><strong>Etkinlik:</strong> <span id="card-event"></span></p>
+                                <p><strong>Kişi Sayısı:</strong> <span id="card-passenger"></span></p>
+                                <p><strong>Toplam Tutar:</strong> <span id="card-price"></span></p>
+
+
+                                <hr>
+
+                                <div class="alert alert-success mb-0">
+                                    <strong>Rezervasyonunuz oluşturuldu!</strong><br>
+                                    İyi yolculuklar ve iyi eğlenceler dileriz. 🎉
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </section>
     </main>

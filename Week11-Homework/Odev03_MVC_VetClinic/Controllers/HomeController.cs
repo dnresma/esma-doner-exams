@@ -8,9 +8,9 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        var context =  new VetClinicDbContext();
-        var vets = context.Vets.ToList();
-        return View(vets);
+        var context = new VetClinicDbContext();
+        var pets = context.Pets.ToList();
+        return View(pets);
     }
 
     public IActionResult Privacy()

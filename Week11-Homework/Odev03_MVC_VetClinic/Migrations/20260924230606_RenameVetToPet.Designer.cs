@@ -11,8 +11,8 @@ using Odev03_MVC_VetClinic.Models;
 namespace Odev03_MVC_VetClinic.Migrations
 {
     [DbContext(typeof(VetClinicDbContext))]
-    [Migration("20260924213505_InitialDb")]
-    partial class InitialDb
+    [Migration("20260924230606_RenameVetToPet")]
+    partial class RenameVetToPet
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace Odev03_MVC_VetClinic.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Odev03_MVC_VetClinic.Models.Entities.Vet", b =>
+            modelBuilder.Entity("Odev03_MVC_VetClinic.Models.Entities.Pet", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -45,7 +45,7 @@ namespace Odev03_MVC_VetClinic.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Vets");
+                    b.ToTable("Pets");
 
                     b.HasData(
                         new

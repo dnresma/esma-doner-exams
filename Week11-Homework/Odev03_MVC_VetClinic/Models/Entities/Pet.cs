@@ -2,7 +2,7 @@ using System;
 
 namespace Odev03_MVC_VetClinic.Models.Entities;
 
-public class Vet
+public class Pet
 {
     public int Id { get; set; }
     public string Name { get; set; } = null!;

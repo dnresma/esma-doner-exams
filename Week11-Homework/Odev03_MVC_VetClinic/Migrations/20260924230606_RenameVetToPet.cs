@@ -8,13 +8,13 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Odev03_MVC_VetClinic.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialDb : Migration
+    public partial class RenameVetToPet : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Vets",
+                name: "Pets",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -25,11 +25,11 @@ namespace Odev03_MVC_VetClinic.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Vets", x => x.Id);
+                    table.PrimaryKey("PK_Pets", x => x.Id);
                 });
 
             migrationBuilder.InsertData(
-                table: "Vets",
+                table: "Pets",
                 columns: new[] { "Id", "Age", "Name", "Species" },
                 values: new object[,]
                 {
@@ -50,7 +50,7 @@ namespace Odev03_MVC_VetClinic.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Vets");
+                name: "Pets");
         }
     }
 }

@@ -1,0 +1,29 @@
+﻿@using Odev01_MVC_Library.Models.Entities;
+@model List<Book>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center mb-5 text-decoration-underline">Kütüphanemizdeki Toplam Kitap Sayısı: @Model.Count()</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Page Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <th scope="row">@book.Id</th>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.PageCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

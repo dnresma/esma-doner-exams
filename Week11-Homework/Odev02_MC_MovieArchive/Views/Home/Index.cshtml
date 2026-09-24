@@ -1,0 +1,29 @@
+﻿@using Odev02_MC_MovieArchive.Models.Entities;
+@model List<Movie>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center mb-5 text-decoration-underline">Arşivdeki Toplam Film Sayısı: @Model.Count()</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Release Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <th scope="row">@movie.Id</th>
+                <td>@movie.Title</td>
+                <td>@movie.Director</td>
+                <td>@movie.ReleaseYear</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

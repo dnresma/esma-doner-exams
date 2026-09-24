@@ -1,0 +1,28 @@
+﻿@using Odev03_MVC_VetClinic.Models.Entities;
+@model List<Vet>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center mb-5 text-decoration-underline">Veterinerdeki Toplam Hayvan Sayısı: @Model.Count()</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vet in Model)
+        {
+            <tr>
+                <th scope="row">@vet.Id</th>
+                <td>@vet.Name</td>
+                <td>@vet.Species</td>
+                <td>@vet.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>

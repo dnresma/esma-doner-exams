@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odev04_MVC_GymMembers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be6c2ba3a15f8201e6087f2f8e6dc49b86e86d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cab8cb4badedad426d0d3e5262132f2d2a76945d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odev04_MVC_GymMembers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odev04_MVC_GymMembers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,29 @@
+﻿@using Odev05_MVC_CafeMenu.Models.Entities;
+@model List<MenuItem> 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center mb-5 text-decoration-underline">Menüdeki Toplam Ürün Sayısı: @Model.Count()</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var menuItem in Model)
+        {
+            <tr>
+                <th scope="row">@menuItem.Id</th>
+                <td>@menuItem.Name</td>
+                <td>@menuItem.Name</td>
+                <td>@menuItem.Price TL</td>
+            </tr>
+        }
+    </tbody>
+</table>

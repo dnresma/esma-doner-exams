@@ -1,0 +1,41 @@
+﻿@using Odev06_MVC_TravelGuide.Models.Entities;
+@model List<Place>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center mb-5 text-decoration-underline">
+    Rehberimizdeki Toplam Gezilecek Yer Sayısı: @Model.Count()
+</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Entry Fee</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var place in Model)
+        {
+            <tr>
+                <th scope="row">@place.Id</th>
+                <td>@place.Name</td>
+                <td>@place.City</td>
+                <td>
+                    @if (place.EntryFee > 0)
+                    {
+                        @($"{place.EntryFee} TL")
+                    }
+                    else
+                    {
+                        <span>0</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

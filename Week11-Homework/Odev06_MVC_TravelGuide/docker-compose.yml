@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: travel_user
+      POSTGRES_PASSWORD: travel_password
+      POSTGRES_DB: travel_db
+    ports:
+      - "12600:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

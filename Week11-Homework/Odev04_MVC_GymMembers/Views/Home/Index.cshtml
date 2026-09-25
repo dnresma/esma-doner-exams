@@ -1,0 +1,28 @@
+﻿@using Odev04_MVC_GymMembers.Models.Entities;
+@model List<Member>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-center mb-5 text-decoration-underline">Spor Salonundaki Toplam Üye Sayısı: @Model.Count()</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>FullName</th>
+            <th>Member Ship Type</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var member in Model)
+        {
+            <tr>
+                <th scope="row">@member.Id</th>
+                <td>@member.FullName</td>
+                <td>@member.MemberShipType</td>
+                <td>@member.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>

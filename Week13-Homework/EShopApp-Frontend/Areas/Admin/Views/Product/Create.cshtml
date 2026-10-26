@@ -1,0 +1,69 @@
+@using EShopApp.Models.ViewModels.Products
+@model AdminCreateProductViewModel
+@{
+    ViewData["Title"] = "Ürün Oluştur";
+}
+
+<div class="d-flex justify-content-between align-items-end">
+    <h3 class="display-6 mb-3">Ürün Ekle</h3>
+    <div class="d-flex gap-3">
+        <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="btn" style="background-color: #000; color:#fff;">Ürünlere Geri Dön</a>
+    </div>
+</div>
+
+<div class="container">
+    <form asp-area="Admin" asp-controller="Product" asp-action="Create" method="post" enctype="multipart/form-data" novalidate data-ajax-product-form>
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger mt-5" data-valsummary></div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Name"></label>
+                    <input class="form-control border-3" asp-for="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Description"></label>
+                    <textarea asp-for="Description" class="form-control border-3" rows="5"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-3">
+                        <label class="form-label mb-2" asp-for="Price"></label>
+                        <input class="form-control border-3" asp-for="Price" type="number" step="0.01"/>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label mb-2" asp-for="StockQuantity"></label>
+                        <input class="form-control border-3" asp-for="StockQuantity" />
+                        <span asp-validation-for="StockQuantity" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="CategoryId" class="mb-2"></label>
+                        <select class="form-select border-3" asp-for="CategoryId">
+                            <option value="0">Bir kategori seçin...</option>
+                            @foreach(var c in Model.Categories)
+                            {
+                                <option value="@c.Id">@c.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label class="form-label">Görsel</label>
+                    <img id="product-image-preview" hidden class="img-fluid mb-3" style="max-height:270px; object-fit: contain; width:100%;" />
+                    <input type="file" name="imageFile" id="image-file" class="form-control border-3">
+                    <span class="text-danger" data-valmsg-for="image-file"></span>
+                </div>
+            </div>
+        </div>
+        <button  type="submit" class="btn mt-3" style="background-color: #000; color: #fff">Kaydet</button>
+    </form>
+</div>
+
+
+@section Scripts{
+    <script src="~/js/product-form.js"></script>
+}

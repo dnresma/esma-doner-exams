@@ -1,0 +1,40 @@
+@using EShopApp.Models.ViewModels.Products
+@model DetailsProductViewModel
+@{
+    ViewData["Title"] = "Ürün Detayı";
+}
+
+<div class="container">
+    <h1 class="display-6 mt-5">@Model.Name</h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@Model.ImageUrl" class="img-fluid" style="max-height: 400px;"/>
+        </div>
+        <div class="col-md-8">
+            <span class=" badge bg-secondary p-1 px-2">@Model.CategoryName</span>
+            <p class="lead mt-3 fw-bold">Ürün Özellikleri:</p>
+            <p class="text-muted">@Model.Description</p>
+            <p class="p-2" style="max-width: 100px; border-radius: 10px; background-color: #233351; color:#fff; ">@Model.Price.ToString("C2")</p>
+            <p>Stok: @Model.StockQuantity adet</p>
+
+            <div class="d-flex justify-content-between align-items-end">
+                    @if (Model.StockQuantity > 0)
+                    {
+                        <div>
+                            <label class="form-label" for="">Adet: </label>
+                            <input class="form-control" type="number" name="" id="quantity" value="1" min="1" max="@Model.StockQuantity" style="border-color: #233351;; border-width: 2px; border-style: solid; max-width: 50px;">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-end">
+                            <button type="button" class="btn btn-primary" data-add-to-cart data-product-id="@Model.Id" data-quantity-input="quantity">Sepete Ekle</button>
+                        </div>
+                    } else
+                    {
+                        <div class="alert alert-secondary">Bu ürün şu an stokta yok</div>
+                    }
+            </div>
+
+            
+        </div>
+    </div>
+</div>

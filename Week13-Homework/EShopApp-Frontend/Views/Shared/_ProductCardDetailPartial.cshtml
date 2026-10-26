@@ -1,0 +1,20 @@
+@using EShopApp.Models.ViewModels.Products
+@model ListItemProductViewModel
+@{
+    var p = Model;
+}
+<div class="card">
+    <a asp-area="" asp-controller="Product" asp-action="Details" asp-route-id="@p.Id">
+        <img src="@p.ImageUrl" class="card-img-top img-fluid" />
+        <div class="card-body">
+            <h5 class="card-title">@p.Name</h5>
+            <div class="d-flex justify-content-between align-items-end">
+                <p class="card-text">@p.CategoryName</p>
+                <p class="card-price">@p.Price.ToString("C2")</p>
+            </div>
+        </div>
+    </a>
+    <div class="">
+        <a asp-area="" asp-controller="Product" asp-action="Details" asp-route-id="@p.Id" class="btn btn-order bg-primary">Detay Gör</a>
+    </div>           
+</div>

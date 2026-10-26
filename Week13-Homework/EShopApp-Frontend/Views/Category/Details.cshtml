@@ -1,0 +1,37 @@
+
+@using EShopApp.Models.ViewModels.Categories
+@model DetailsCategoryViewModel
+
+@{
+    ViewData["Title"] = "Kategori Detayı";
+}
+
+<div class="container-fluid">
+    <h1 class="display-6 mt-5 fw-medium">@Model.Name Kategorisi</h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-8">
+            <p class="lead mt-3 fw-bold">Açıklama:</p>
+            <p class="text-muted">@Model.Description</p>
+            <p class="p-2 mt-4" style="max-width: 215px; border-radius: 10px; background-color: #233351; color:#fff; ">@Model.ProductCount adet ürün bulunmaktadır.</p
+        </div>
+    </div>
+</div>
+<div class="row g-3 mt-5">
+    @foreach (var p in Model.Products)
+    {   
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@p.ImageUrl" class="card-img-top" alt="@p.Name" />
+                    <div class="card-body">
+                        <h5 class="card-title">@p.Name</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-secondary p-2 h-100">Stok: @p.StockQuantity</span>
+                            <p class="fw-bolder text-primary fs-5">@p.Price.ToString("C2")</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    }
+

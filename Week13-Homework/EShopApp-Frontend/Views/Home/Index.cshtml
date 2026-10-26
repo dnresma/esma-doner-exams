@@ -1,0 +1,64 @@
+﻿@using EShopApp.Models.ViewModels.Products
+@model List<ListItemProductViewModel>
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+<section class="hero-banner">
+    <div class="hero-content">
+        <span class="hero-tag">ESHOPAPP • TEKNOLOJİ DÜNYASI</span>
+        <h1>Teknolojide Fırsat Zamanı!</h1>
+        <p>
+        En sevilen teknoloji ürünlerini keşfet,
+        alışverişin keyfini çıkar.
+        </p>
+        <a asp-area="" asp-controller="product" asp-action="index"  class="hero-button">
+        Ürünleri Keşfet →
+        </a>
+    </div>
+</section>
+
+<div class="container">
+    <h1 class="display-6"style="color: #233351;">Popüler Ürünler</h1>
+    <hr>
+    <div class="row g-3">
+        @foreach (ListItemProductViewModel p in Model.Take(12))
+        {
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                @await Html.PartialAsync("_ProductCardPartial", p)
+            </div>
+        }
+    </div>
+</div>
+
+<div class="container">
+    <section class="why-us">
+        <div class="why-us-heading">
+            <h2>Neden Bizi Tercih Etmelisin?</h2>
+            <p>
+                Teknoloji alışverişini daha kolay ve keyifli hale getiriyoruz.
+            </p>
+        </div>
+        <div class="why-us-grid">
+            <div class="why-us-card">
+                <div class="why-us-icon">🚚</div>
+                <h3>Hızlı Teslimat</h3>
+                <p>Siparişlerinin teslimat sürecini kolayca takip et.</p>
+            </div>
+            <div class="why-us-card">
+                <div class="why-us-icon">🛡️</div>
+                <h3>Güvenli Alışveriş</h3>
+                <p>Alışveriş deneyiminde güvenliğe önem veriyoruz.</p>
+            </div>
+            <div class="why-us-card">
+                <div class="why-us-icon">🎧</div>
+                <h3>Müşteri Desteği</h3>
+                <p>Ürün ve siparişlerinle ilgili sorularında bize ulaş.</p>
+            </div>
+            <div class="why-us-card">
+                <div class="why-us-icon">✨</div>
+                <h3>Kaliteli Ürünler</h3>
+                <p>İhtiyaçlarına uygun teknoloji ürünlerini keşfet.</p>
+            </div>
+        </div>
+    </section>
+</div>

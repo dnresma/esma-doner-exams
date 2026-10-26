@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odev05_MVC_CafeMenu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cab8cb4badedad426d0d3e5262132f2d2a76945d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe86888847ad1cac5847938b038abe1c4195df3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odev05_MVC_CafeMenu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odev05_MVC_CafeMenu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

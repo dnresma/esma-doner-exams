@@ -1,0 +1,21 @@
+﻿@using EShopApp.Models.ViewModels.Products
+@model AdminDeleteProductViewModel
+@{
+    ViewData["Title"] ="Ürünü Sil";
+}
+
+<div class="card card-delete">
+    <h3 class="display-6 text-danger ms-2">Ürünü Sil</h3>
+    <div class="container">
+        <form asp-area="Admin" asp-controller="Product" asp-action="Delete" method="post" data-ajax-product-form>
+            <div class="text-danger mt-3" data-valsummary></div>
+            <p class="mt-3"><strong>@Model.Name</strong> adlı ürünü silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!</p>
+            <button type="submit" class="btn btn-danger me-5">Evet, Sil</button>
+            <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="btn btn-secondary ms-5">Vazgeç</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/product-form.js"></script>
+}

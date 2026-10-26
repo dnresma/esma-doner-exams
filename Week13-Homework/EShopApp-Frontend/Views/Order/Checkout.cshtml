@@ -1,0 +1,57 @@
+@using EShopApp.Models.ViewModels.Orders
+@model CheckoutViewModel
+@{
+    ViewData["Title"] = "Ödeme";
+}
+
+<h1 class="mt-5 mb-4" style="color: #233351;">ÖDEME SAYFASI</h1>
+
+<div class="row g-4">
+    <div class="col-md-6">
+        <h3 class="mb-3">Teslimat Bilgileri</h3>
+        <form asp-area="" asp-controller="Order" asp-action="Checkout" method="post" novalidate data-ajax-form>
+            <div class="text-danger mb-2" data-valsummary></div>
+            <div class="mb-3">
+                <label asp-for="ShippingAddress" class="form-label"></label>
+                <textarea asp-for="ShippingAddress" class="form-control border-3" rows="4"></textarea>
+                <span class="text-danger" asp-validation-for="ShippingAddress"></span>
+            </div> 
+            <div class="mb-3">
+                <label asp-for="PhoneNumber" class="form-label"></label>
+                <input asp-for="PhoneNumber" class="form-control border-3">
+                <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+            </div>
+            <div class="alert alert-warning">
+                Bu uygulamada gerçek bir ödeme alma işlemi yoktur. Siparişi Onayla butonuna bastığınızda, ödeme gerçekleştirilmiş sayılarak sipariş doğrudan oluşturulmaktadır.
+            </div>
+            <button type="submit" class="btn btn-success me-3">Siparişi Onayla</button>
+            <a asp-area="" asp-controller="Cart" asp-action="Index" class="btn btn-outline-secondary">Sepete Dön</a>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h3 class="mb-3">Sipariş Özeti</h3>
+        <table class="table table-sm align-middle">
+            <tbody>
+                @foreach(var item in Model.Cart.Items)
+                {
+                    <tr>
+                        <td><img src="@item.ImageUrl" style="height: 40px;" /></td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity x @item.UnitPrice.ToString("C2")</td>
+                        <td class="text-end">@item.LineTotal.ToString("C2")</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-end fw-bold fs-5">Toplam:</td>
+                    <td class="text-end fs-5 fw-bold text-success">@Model.Cart.Total.ToString("C2")</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/ajax-form.js"></script>
+}

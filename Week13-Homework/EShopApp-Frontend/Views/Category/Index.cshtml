@@ -1,0 +1,30 @@
+@using EShopApp.Models.ViewModels.Categories
+@model CategoriesIndexViewModel
+@{
+    ViewData["Title"] = "Kategoriler";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-5" style="border-color: #233351;">TÜM KATEGORİLER</h1>
+    <table class="table data-table table-striped categories-table mt-3">
+        <thead>
+            <tr>
+                <th>Kategori</th>
+                <th>Ürün Adedi</th>
+                <th class="text-end" style="padding-right: 2.5rem;">Detay</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model.Categories)
+            {
+                <tr class="">
+                    <td>@c.Name</td>
+                    <td class="ps-5">@c.ProductCount</td>
+                    <td class="text-end">
+                        <a asp-area="" asp-controller="Category" asp-action="Details" asp-route-id="@c.Id" class="btn btn-order bg-primary m-0" style="width: max-content;">Detay Gör</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

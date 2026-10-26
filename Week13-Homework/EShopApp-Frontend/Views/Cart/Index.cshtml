@@ -1,0 +1,79 @@
+@using EShopApp.Models.ViewModels.Carts
+@model CartViewModel
+@{
+    ViewData["Title"] = "Sepetim";
+}
+
+<h1 class="mt-5" style="color: #233351;">SEPETİM</h1>
+@if (!Model.Items.Any())
+{
+    <div class="alert alert-info">Sepetiniz boş</div>
+    <a asp-area="" asp-controller="Product" asp-action="Index" class="btn btn-primary">Alışverişe başla</a>
+} else
+{
+    <table class="table align-middle">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Ürün</th>
+                <th>Birim Fiyat</th>
+                <th>Adet</th>
+                <th>Tutar</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.Items)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.ImageUrl" style="height: 50px;"/>
+                    </td>
+                    <td>
+                        <a asp-area="" asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductId" style="text-decoration: none; color: #000; font-weight: bold;">@item.ProductName</a>
+                        @if (item.Quantity > item.StockQuantity)
+                        {
+                            <div class="text-danger small">
+                                Stokta sadece @item.StockQuantity adet kaldı. Lütfen adedi azaltın.
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        @item.UnitPrice.ToString("C0")
+                    </td>
+                    <td style="width:200px;">
+                        <form asp-area="" asp-controller="Cart" asp-action="Update" method="post" class="d-flex gap-2"
+                              data-ajax-form>
+                            <input type="hidden" name="productId" value="@item.ProductId">
+                            <input type="number" name="quantity" id="" value="@item.Quantity" min="1" max="@item.StockQuantity" class="form-control form-control-sm" style="width:60px;">
+                            <button type="submit" class="btn btn-outline-primary btn-sm">Güncelle</button>
+                        </form>
+                    </td>
+                    <td>
+                        @item.LineTotal.ToString("C2")
+                    </td>
+                    <td>
+                        <form asp-area="" asp-controller="Cart" asp-action="Remove" method="post" data-ajax-form>
+                            <input type="hidden" name="productId" value="@item.ProductId">
+                            <button class="btn btn-outline-danger btn-sm" type="submit">Kaldır</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="text-end fw-bold">Toplam (@Model.ItemCount) ürün:</td>
+                <td colspan="1" class="fs-5 fw-bold pe-0">@Model.Total.ToString("C2")</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="d-flex justify-content-between">
+        <a asp-area="" asp-controller="Product" asp-action="Index" class="btn btn-secondary">Alışverişe Devam Et</a>
+        <a asp-area="" asp-controller="Order" asp-action="Checkout" class="btn btn-success">Siparişi Tamamla</a>
+    </div>
+}
+
+@section Scripts{
+    <script src="~/js/ajax-form.js"></script>
+}

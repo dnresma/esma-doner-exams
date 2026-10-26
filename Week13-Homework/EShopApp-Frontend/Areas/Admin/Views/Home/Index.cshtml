@@ -1,0 +1,38 @@
+@using EShopApp.Models.ViewModels.Categories
+@model AdminListItemCategoryViewModel
+@{
+    var c = Model;
+}
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="admin-dashboard">
+    <div class="dashboard-header">
+        <h1>Admin Ana Sayfası</h1>
+        <p>Mağazanın genel durumuna hoş geldiniz.</p>
+    </div>
+
+    <div class="dashboard-cards">
+        <div class="dashboard-card">
+            <div class="card-icon products-icon">📦</div>
+            <p>Toplam Ürün:</p>
+            <h2>50</h2>
+            <span>Kayıtlı ürün</span>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-icon orders-icon">🛍️</div>
+            <p>Toplam Sipariş</p>
+            <h2>126</h2>
+            <span>Tüm siparişler</span>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-icon sales-icon">💰</div>
+            <p>Toplam Satış</p>
+            <h2>₺84.500</h2>
+            <span>Örnek satış tutarı</span>
+        </div>
+    </div>
+</div>

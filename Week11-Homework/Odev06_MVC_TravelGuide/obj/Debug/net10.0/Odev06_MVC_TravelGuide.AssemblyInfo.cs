@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odev06_MVC_TravelGuide")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ad503550da75205e4eb6c84670aaf3c9a580a0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe86888847ad1cac5847938b038abe1c4195df3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odev06_MVC_TravelGuide")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odev06_MVC_TravelGuide")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

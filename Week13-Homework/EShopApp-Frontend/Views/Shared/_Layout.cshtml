@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EShopApp</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EShopApp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse justify-content-between">
+            <ul class="navbar-nav ms-5">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Product" asp-action="Index">Ürünler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Category" asp-action="Index">Kategoriler</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav text-center">
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Hesabım
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" style="background-color: #233351; color:#fff;" aria-labelledby="accountDropdown">
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li>
+                                    <a class="dropdown-item" id="menu-item" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a class="dropdown-item" id="menu-item" asp-area="" asp-controller="" asp-action="">@User.Identity?.Name</a>
+                                </li>
+                            }
+                            <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" id="menu-item"
+                                   asp-area="" asp-controller="Cart" asp-action="Index">
+                                    Sepetim
+                                    <span class="badge rounded-pill bg-danger ms-2" id="cart-count">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="menu-item" asp-area="" asp-controller="Order" asp-action="Index">Siparişlerim</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="menu-item" asp-area="" asp-controller="Account" asp-action="Index">Hesap Ayarları</a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <form asp-area="" asp-controller="Account" asp-action="Logout" method="post">
+                                    <button type="submit" class="dropdown-item text-danger ms-4" id="menu-item-exit">Çıkış Yap</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Giriş Yap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Register">Kayıt Ol</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @if(TempData["Error"] is not null)
+            {
+                <div class="alert alert-warning">
+                    @TempData["Error"]
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container py-5">
+            <div class="row g-4 justify-content-between">
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="footer-brand fw-bold mb-3">
+                        <i class="fa-solid fa-bag-shopping me-2"></i>
+                        ESHOPAPP
+                    </h3>
+                    <p class="footer-text mb-4">
+                        Teknoloji dünyasının en sevilen ürünlerini
+                        keşfedin. Bilgisayarlardan akıllı telefonlara,
+                        ihtiyaç duyduğunuz her şey burada!
+                    </p>
+                    <h6 class="fw-bold text-uppercase mb-3">
+                        BİZİ TAKİP EDİN
+                    </h6>
+                    <div class="social-icons d-flex gap-2">
+                        <a href="#" class="social-btn"
+                        aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="social-btn"
+                        aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="social-btn"
+                        aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold text-uppercase mb-3">
+                        HIZLI BAĞLANTILAR
+                    </h6>
+
+                    <ul class="list-unstyled footer-links">
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Ana Sayfa</a></li>
+                        <li><a asp-area="" asp-controller="Product" asp-action="Index">Tüm Ürünler</a></li>
+                        <li><a  asp-area="" asp-controller="Category" asp-action="Index">Kategoriler</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Popüler Ürünler</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold text-uppercase mb-3">
+                        MÜŞTERİ DESTEĞİ
+                    </h6>
+                    <ul class="list-unstyled footer-contact">
+                        <li>
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            destek@eshopapp.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot me-2"></i>
+                            İstanbul, Türkiye
+                        </li>
+                        <li>
+                            <a href="#contact"
+                            class="text-white text-decoration-none">
+                                <i class="fa-solid fa-headset me-2"></i>
+                                Bize Ulaşın
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider my-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 opacity-75 small">
+                <p class="mb-0 text-center text-md-start">
+                    © 2026 EShopApp. Tüm hakları saklıdır.
+                </p>
+                <div class="footer-bottom-links d-flex flex-wrap justify-content-center gap-3">
+                    <a href="/privacy">Gizlilik Politikası</a>
+                    <a href="/terms">Kullanım Şartları</a>
+                    <a href="/cookies">Çerez Politikası</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/cart.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

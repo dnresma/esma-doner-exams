@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EShopApp Admin</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/admin/css/admin.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EShopApp.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="admin-topbar">
+        <button type="button" class="admin-toggle" id="sidebarToggle" aria-label="Menüyü aç">☰</button>
+        <span class="admin-topbar-title">EShopApp Admin</span>
+    </div>
+
+    <div class="admin-backdrop" id="sidebarBackdrop"></div>
+
+    <div class="admin-wrapper">
+        <nav class="admin-sidebar" id="adminSidebar">
+            <a class="admin-brand" asp-area="Admin" asp-controller="Home" asp-action="Index">EShopApp Admin</a>
+            <hr class="sidebar-divider" />
+            <ul class="admin-nav">
+                <li><a class="admin-link" asp-area="Admin" asp-controller="Home" asp-action="Index">Ana Sayfa</a></li>
+                <li><a class="admin-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Ürünler</a></li>
+                <li><a class="admin-link" asp-area="Admin" asp-controller="Category" asp-action="Index">Kategoriler</a></li>
+                <li><a class="admin-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Siparişler</a></li>
+            </ul>
+            <ul class="admin-nav admin-nav-bottom">
+                <li><a class="admin-link" asp-area="" asp-controller="Home" asp-action="Index">Siteye Dön</a></li>
+                <li><a class="admin-link ms-4" asp-area="" asp-controller="Home" asp-action="Index"><button type="button" class="btn-close bg-white" aria-label="Close"></button></a></li>
+            </ul>
+        </nav>
+
+        <main role="main" class="admin-content">
+            @if (TempData["Error"] is not null)
+            {
+                <div class="alert alert-warning">@TempData["Error"]</div>
+            }
+            @if (TempData["Success"] is not null)
+            {
+                <div class="alert alert-success">@TempData["Success"]</div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        const sidebar = document.getElementById('adminSidebar');
+        const backdrop = document.getElementById('sidebarBackdrop');
+        const toggle = document.getElementById('sidebarToggle');
+
+        function setSidebar(open) {
+            sidebar.classList.toggle('open', open);
+            backdrop.classList.toggle('show', open);
+        }
+
+        toggle.addEventListener('click', () => setSidebar(!sidebar.classList.contains('open')));
+        backdrop.addEventListener('click', () => setSidebar(false));
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

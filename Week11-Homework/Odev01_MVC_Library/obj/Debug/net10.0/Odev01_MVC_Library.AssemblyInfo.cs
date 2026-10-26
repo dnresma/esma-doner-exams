@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odev01_MVC_Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be6c2ba3a15f8201e6087f2f8e6dc49b86e86d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe86888847ad1cac5847938b038abe1c4195df3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odev01_MVC_Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odev01_MVC_Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

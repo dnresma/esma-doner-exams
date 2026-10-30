@@ -16,4 +16,5 @@ public class DetailsOrderViewModel
     public decimal Total => Lines.Sum(l => l.LineTotal);
     public bool CanCancel => Status == OrderStatus.Pending;
     public List<OrderStatus> NextStatuses { get; set; } = [];
+    public string CurrentStatus { get; set; }
 }

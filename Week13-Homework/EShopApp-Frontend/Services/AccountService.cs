@@ -3,10 +3,11 @@ using EShopApp.Data.Repositories;
 using EShopApp.Models.Entities;
 using EShopApp.Models.ViewModels.Account;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EShopApp.Services;
 
-public class AccountService
+public class AccountService : IAccountService
 {
     private readonly UserManager<AppUser> _userManager;
     private readonly SignInManager<AppUser> _signManager;
@@ -57,5 +58,66 @@ public class AccountService
     public async Task LogoutAsync()
     {
         await _signManager.SignOutAsync();
+    }
+
+   public async Task<AccountIndexViewModel?> GetAccountInfoAsync(string userId)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null)
+            return null;
+
+        return new AccountIndexViewModel
+        {
+            Id = user.Id,
+            FullName = user.FullName,
+            UserName = user.UserName!,
+            Email = user.Email!,
+            PhoneNumber = user.PhoneNumber,
+            EmailConfirmed = user.EmailConfirmed
+        };
+    }
+    public async Task<AccountEditViewModel?> GetAccountForEditAsync(string userId)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null)
+            return null;
+
+        return new AccountEditViewModel
+        {
+            FullName = user.FullName,
+            PhoneNumber = user.PhoneNumber
+        };
+    }
+
+    public async Task<(bool Success, string Message)> UpdateAccountAsync(string userId, AccountEditViewModel model)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null)
+            return (false, "Kullanıcı bulunamadı.");
+
+        user.FullName = model.FullName;
+        user.PhoneNumber = model.PhoneNumber;
+
+        var result = await _userManager.UpdateAsync(user);
+        if (!result.Succeeded)
+            return (false, string.Join(",", result.Errors.Select(e => e.Description)));
+
+        return (true, "Bilgileriniz güncellendi.");
+    }
+
+    public async Task<(bool Success, string Message)> ChangePasswordAsync(string userId, ChangePasswordViewModel model)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null)
+            return (false, "Kullanıcı bulunamadı.");
+
+        var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+        if (!result.Succeeded)
+            return (false, string.Join(",", result.Errors.Select(e => e.Description)));
+
+        // Şifre değişince güvenlik damgası yenilenir, oturumu tazelemezsek kullanıcının oturumu düşebilir
+        await _signManager.RefreshSignInAsync(user);
+
+        return (true, "Şifreniz değiştirildi.");
     }
 }

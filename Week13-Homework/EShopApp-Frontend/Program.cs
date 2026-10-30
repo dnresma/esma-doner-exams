@@ -13,7 +13,6 @@ builder.Services.AddDbContext<EShopAppDbContext>(options => options.UseSqlite(bu
 
 builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<EShopAppDbContext>();
 
-// BU SATIR(17.SATIR)DAKİ KODU YAZMASAYDIK NE OLURDU? YAZDIK, NE KAZANDIK? NERDE NEYİ KULLANABİLMEMİZİ SAĞLIYOR?
 builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<ProductRepository>();
 builder.Services.AddScoped<CartRepository>();
@@ -23,7 +22,9 @@ builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<ProductService>(); 
 builder.Services.AddScoped<CartService>();
 builder.Services.AddScoped<OrderService>();
-builder.Services.AddScoped<AccountService>();
+builder.Services.AddScoped<AdminService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+
 
 var app = builder.Build();
 

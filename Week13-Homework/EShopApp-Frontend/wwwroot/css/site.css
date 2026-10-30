@@ -370,4 +370,24 @@
     text-align:justify;
 }
 
-
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #233351;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03);
+}
+.account-settings-links .list-group-item.active {
+    font-weight: bold;
+    background-color: #243451;
+    color: #fff;
+}

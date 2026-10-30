@@ -20,55 +20,38 @@ public class CategoryService
 
 
     // Tupple
-    public async Task<(bool Success, string Message)> CreateCategoryAsync(AdminCreateCategoryViewModel model)
+    
+    public async Task<(bool Success, string Message)> CreateCategoryAsync(
+        AdminCreateCategoryViewModel model)
     {
-        var existsCategoryName = await _categoryRepository.ExistsCategoryName(model.Name);
+        var name = model.Name.Trim();
+
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            return (false, "Kategori adı zorunludur.");
+        }
+
+        var existsCategoryName = await _categoryRepository.ExistsCategoryName(name);
+
         if (existsCategoryName)
         {
-            return (false, $"{model.Name} adlı kategori zaten mevcut olduğu için oluşturulamadı. Lütfen başka bir kategori adı deneyin.");
+            return (
+                false,
+                $"{name} adlı kategori zaten mevcut. Başka bir ad deneyin."
+            );
         }
+
         var category = new Category
         {
-            Name = model.Name,
-            Description = model.Description
+            Name = name,
+            Description = model.Description?.Trim()
         };
+
         await _categoryRepository.AddAsync(category);
+
         return (true, "Kategori başarıyla oluşturuldu.");
     }
 
-    public async Task<(bool Success, string Message)> UpdateCategoryAsync(AdminUpdateCategoryViewModel model)
-    {
-        var category = await _categoryRepository.GetByIdAsync(model.Id);
-        if (category is null)
-        {
-            return (false, "Kategori bulunamadı.");
-        }
-        var existsCategoryName = await _categoryRepository.ExistsCategoryName(model.Name);
-        if (existsCategoryName && category.Id != model.Id)
-        {
-            return (false, "Bu kategori adı zaten mevcut olduğu için kategori güncellenemedi.");
-        }
-        category.Name = model.Name;
-        category.Description = model.Description;
-        await _categoryRepository.UpdateAsync(category);
-        return (true, "Kategori başarıyla güncellendi.");
-    }
-
-    public async Task<(bool Success, string Message)> DeleteCategoryAsync(int id)
-    {
-        var category = await _categoryRepository.GetByIdWithProductsAsync(id);
-        if (category is null)
-        {
-            return (false, "Kategori bulunamadı.");
-        }
-        int productsCount = category.Products.Count;
-        if (productsCount > 0)
-        {
-            return (false, $"Bu kategoride {productsCount} adet ürün kayıtlı olduğu için silinemedi. Önce bu ürünleri silin ya da başka kategoriye taşıyın.");
-        }
-        await _categoryRepository.RemoveAsync(category);
-        return (true, "Kayıt başarıyla silindi.");
-    }
 
     public async Task<(bool Success, string Message, List<AdminListItemCategoryViewModel>? Categories)> GetAllCategoriesForAdminAsync()
     {
@@ -128,5 +111,54 @@ public class CategoryService
         return (true, "Kategori başarıyla çekildi.", model, null);
     }
 
+    public async Task<AdminUpdateCategoryViewModel?> GetCategoryForUpdateAsync(int id)
+    {
+        var category = await _categoryRepository.GetByIdAsync(id);
+        if (category is null) return null;
 
+        return new AdminUpdateCategoryViewModel
+        {
+            Id = category.Id,
+            Name = category.Name,
+            Description = category.Description
+        };
+    }
+
+    public async Task<(bool Success, string Message)> UpdateCategoryAsync(AdminUpdateCategoryViewModel model)
+    {
+        var name = model.Name.Trim();
+        if (string.IsNullOrWhiteSpace(name))
+            return (false, "Kategori adı zorunludur.");
+
+        var category = await _categoryRepository.GetByIdAsync(model.Id);
+        if (category is null)
+            return (false, "Kategori bulunamadı.");
+
+        if (await _categoryRepository.ExistsCategoryName(name, model.Id))
+            return (false, $"{name} adlı başka bir kategori zaten mevcut. Başka bir ad deneyin.");
+
+        category.Name = name;
+        category.Description = model.Description?.Trim();
+        await _categoryRepository.UpdateAsync(category);
+
+        return (true, "Kategori başarıyla güncellendi.");
+    }
+
+    public async Task<AdminDeleteCategoryViewModel?> GetCategoryForDeleteAsync(int id)
+    {
+        var category = await _categoryRepository.GetByIdAsync(id);
+        if (category is null) return null;
+
+        return new AdminDeleteCategoryViewModel { Id = category.Id, Name = category.Name };
+    }
+
+    public async Task<(bool Success, string Message)> DeleteCategoryAsync(int id)
+    {
+        var category = await _categoryRepository.GetByIdAsync(id);
+        if (category is null)
+            return (false, "Kategori bulunamadı.");
+
+        await _categoryRepository.RemoveAsync(category);
+        return (true, "Kategori silindi.");
+    }
 }

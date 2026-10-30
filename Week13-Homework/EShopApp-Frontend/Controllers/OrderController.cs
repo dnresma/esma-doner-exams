@@ -16,7 +16,7 @@ namespace EShopApp.Controllers
 
         public async Task<IActionResult> Index(OrderStatus? orderStatus = null)
         {
-            var orders = await _orderService.GetUserOrdersAsync(CurrentUserId);
+            var orders = await _orderService.GetUserOrdersAsync(CurrentUserId, orderStatus);
             var orderStatuses = Enum.GetValues<OrderStatus>().ToList();
             var model = new OrdersIndexViewModel(orders, orderStatuses, orderStatus);
             return View(model);

@@ -65,10 +65,16 @@ public class OrderService
         return (true, "Siparişiniz alındı. Teşekkür ederiz.", order.Id);
     }
 
-    public async Task<List<ListItemOrderViewModel>> GetUserOrdersAsync(string userId)
+    public async Task<List<ListItemOrderViewModel>> GetUserOrdersAsync(string userId, OrderStatus? status = null )
     {
         var orders = await _orderRepository.GetByUserIdAsync(userId);
-        return orders.Select(ToListItem).ToList();
+
+        var query = orders.AsEnumerable();
+        if (status is not null)
+            query = query.Where(o => o.OrderStatus == status);
+
+        return query.Select(ToListItem).ToList();
+
     }
 
     public async Task<(bool Success, string Message, DetailsOrderViewModel? Order)> GetUserOrderDetailsAsync(string userId, int orderId)
@@ -186,5 +192,11 @@ public class OrderService
             _ => []
         };
     }
+
+    public async Task<List<Order>> GetOrdersByStatus(string status)
+    {
+        return await _orderRepository.GetOrdersByStatus(status);
+    }
+
     #endregion
 }

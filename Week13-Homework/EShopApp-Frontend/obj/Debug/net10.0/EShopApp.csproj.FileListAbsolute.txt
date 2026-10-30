@@ -355,10 +355,7 @@
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/scopedcss/bundle/EShopApp.styles.css
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/scopedcss/projectbundle/EShopApp.bundle.scp.css
-/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/fx2lvt0ni1-{0}-mphy95jkla-mphy95jkla.gz
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/ynj3dezkvi-{0}-61n19gt1b8-61n19gt1b8.gz
-/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/g1ax1buonv-{0}-hdcn54jw4s-hdcn54jw4s.gz
-/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/yoer8g1n2d-{0}-fr7q2aak1r-fr7q2aak1r.gz
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/w3vx9re2xo-{0}-bqjiyaj88i-bqjiyaj88i.gz
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/b7g6hvskwa-{0}-c2jlpeoesf-c2jlpeoesf.gz
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/p4c82hoiku-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -433,4 +430,8 @@
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/ref/EShopApp.dll
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/18k4o2e139-{0}-ez88nfeuqt-ez88nfeuqt.gz
 /Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/33qe5nfbdn-{0}-jcfvnpbkhe-jcfvnpbkhe.gz
-/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/2rfzmscurk-{0}-upj45ia4vl-upj45ia4vl.gz
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/2rfzmscurk-{0}-ka4karitl5-ka4karitl5.gz
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/yoer8g1n2d-{0}-5ipweew5fc-5ipweew5fc.gz
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/g1ax1buonv-{0}-hdcn54jw4s-hdcn54jw4s.gz
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/fx2lvt0ni1-{0}-dgwksa1frl-dgwksa1frl.gz
+/Users/esma/Desktop/MSCD/esma-doner-exams/esma-doner-exams/Week13-Homework/EShopApp-Frontend/obj/Debug/net10.0/compressed/t2i0n2151s-{0}-gsxitgplwo-gsxitgplwo.gz

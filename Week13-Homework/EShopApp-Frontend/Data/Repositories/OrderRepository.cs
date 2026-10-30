@@ -82,6 +82,22 @@ public class OrderRepository
             .Select(g=>new { Status = g.Key, Count = g.Count()})
             .ToDictionaryAsync(x=>x.Status, x=>x.Count);
     }
+    public async Task<List<Order>> GetOrdersByStatus(string status)
+    {
+        if (string.IsNullOrEmpty(status))
+        {
+            return await _context.Orders
+                                .Include(o => o.OrderItems)
+                                .ToListAsync();
+        }
+
+        var enumStatus = Enum.Parse<OrderStatus>(status);
+        return await _context.Orders
+                            .Include(o => o.OrderItems)
+                            .Where(o => o.OrderStatus == enumStatus)
+                            .ToListAsync();
+    }
+
 
     public async Task SaveChangesAsync()
     {

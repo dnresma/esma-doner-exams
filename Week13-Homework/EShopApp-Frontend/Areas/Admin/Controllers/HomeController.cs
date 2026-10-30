@@ -1,13 +1,24 @@
+using EShopApp.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EShopApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        private readonly AdminService _adminService;
+
+        public HomeController(AdminService adminService)
         {
-            return View();
+            _adminService = adminService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var model = await _adminService.GetDashboardAsync();
+            return View(model);
         }
 
     }

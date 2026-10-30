@@ -60,12 +60,15 @@ public class CategoryRepository
         _context.Categories.Remove(category);
         await _context.SaveChangesAsync();
     }
-
     public async Task<bool> ExistsCategoryName(string name)
+{
+    var lowered = name.ToLower();
+    return await _context.Categories.AnyAsync(c => c.Name.ToLower() == lowered);
+}
+
+    public async Task<bool> ExistsCategoryName(string name, int excludeId)
     {
-        var existsCategoryName = await _context
-            .Categories
-            .AnyAsync(c => c.Name.ToLowerInvariant() == name.ToLowerInvariant());
-        return existsCategoryName;
+        var lowered = name.ToLower();
+        return await _context.Categories.AnyAsync(c => c.Id != excludeId && c.Name.ToLower() == lowered);
     }
 }

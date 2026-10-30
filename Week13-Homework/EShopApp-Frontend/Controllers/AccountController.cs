@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using EShopApp.Models.ViewModels.Account;
 using EShopApp.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -6,11 +7,24 @@ namespace EShopApp.Controllers
 {
     public class AccountController : AjaxBaseController
     {
-        private readonly AccountService _accountService;
+        private readonly IAccountService _accountService;
 
-        public AccountController(AccountService accountService)
+        public AccountController(IAccountService accountService)
         {
             _accountService = accountService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return RedirectToAction("Login");
+
+            var model = await _accountService.GetAccountInfoAsync(userId);
+            if (model == null)
+                return NotFound();
+
+            return View(model);
         }
 
         [HttpGet]
@@ -49,8 +63,68 @@ namespace EShopApp.Controllers
             return View();
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return RedirectToAction("Login");
 
+            var model = await _accountService.GetAccountForEditAsync(userId);
+            if (model == null)
+                return NotFound();
 
+            return View(model);
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(AccountEditViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return RedirectToAction("Login");
+
+            var result = await _accountService.UpdateAccountAsync(userId, model);
+            if (!result.Success)
+            {
+                ModelState.AddModelError(string.Empty, result.Message);
+                return View(model);
+            }
+
+            TempData["Success"] = result.Message;
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return RedirectToAction("Login");
+
+            var result = await _accountService.ChangePasswordAsync(userId, model);
+            if (!result.Success)
+            {
+                ModelState.AddModelError(string.Empty, result.Message);
+                return View(model);
+            }
+
+            TempData["Success"] = result.Message;
+            return RedirectToAction("Index");
+        }
     }
 }

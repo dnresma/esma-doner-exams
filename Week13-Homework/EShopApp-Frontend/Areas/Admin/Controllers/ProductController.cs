@@ -1,10 +1,12 @@
 using EShopApp.Models.ViewModels.Products;
 using EShopApp.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EShopApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly ProductService _productService;
@@ -33,7 +35,7 @@ namespace EShopApp.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(AdminCreateProductViewModel model, IFormFile imageFile)
         {
-            if (!ModelState.IsValid) ValidationErrors();
+            if (!ModelState.IsValid) return ValidationErrors();
 
             if(imageFile is null) return Error("Lütfen bir resim seçin.","imageFile");
 

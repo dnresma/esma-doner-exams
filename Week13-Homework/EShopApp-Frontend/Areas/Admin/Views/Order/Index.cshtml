@@ -1,0 +1,64 @@
+@using EShopApp.Models.Enums
+@using EShopApp.Models.ViewModels.Orders
+@model AdminOrdersIndexViewModel
+@{
+    ViewData["Title"] = "Siparişler";
+    int Count(OrderStatus s) => Model.StatusCounts.TryGetValue(s, out var c) ? c : 0;
+}
+
+<div>
+    <h3 class="display-6 text-black mb-3">Siparişler</h3>
+</div>
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link text-black  @(Model.SelectedStatus is null ? "active bg-black text-white" : "")" asp-area="Admin" asp-controller="Order" asp-action="Index">Tümü</a>
+    </li>
+    @foreach (var status in Enum.GetValues<OrderStatus>())
+    {
+        <a class="nav-link text-black  @(Model.SelectedStatus == status ? "active bg-black text-white" : "")" asp-area="Admin" asp-controller="Order" asp-action="Index" asp-route-status="@status">@status.ToText() (@Count(status))</a>
+    }
+</ul>
+
+<hr>
+
+@if (!Model.Orders.Any())
+{
+    var selectedStatusText = Model.SelectedStatus is null ? "Hiç" : ((OrderStatus)Model.SelectedStatus).ToText() + " durumunda bir";
+    
+    <div class="alert alert-warning">@selectedStatusText sipariş bulunmamaktadır.</div>
+}
+else
+{
+    <table class="table align-middle">
+        <thead>
+            <tr>
+                <th>Sipariş No</th>
+                <th>Müşteri</th>
+                <th>Tarih</th>
+                <th>Ürün Adedi</th>
+                <th>Tutar</th>
+                <th>Durum</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var order in Model.Orders)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@order.ItemCount</td>
+                    <td>@order.Total.ToString("C0")</td>
+                    <td>
+                        <span class="badge p-2 @order.Status.ToBadgeClass()">@order.Status.ToText()</span>
+                    </td>
+                    <td>
+                        <a class="btn btn-outline-warning btn-sm" asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-id="@order.Id" asp-route-status="@Model.SelectedStatus" >Detay</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,3 +1,21 @@
+@using EShopApp.Models.ViewModels.Categories
+@model AdminDeleteCategoryViewModel
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] ="Kategori Sil";
+}
+
+<div class="card card-delete">
+    <h3 class="display-6 text-danger ms-2">Kategoriyi Sil</h3>
+    <div class="container">
+        <form asp-area="Admin" asp-controller="Category" asp-action="Delete" method="post" data-ajax-category-form>
+            <div class="text-danger mt-3" data-valsummary></div>
+            <p class="mt-3"><strong>@Model.Name</strong> adlı kategoriyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!</p>
+            <button type="submit" class="btn btn-danger me-5">Evet, Sil</button>
+            <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="btn btn-secondary ms-5">Vazgeç</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/category-form.js"></script>
 }
